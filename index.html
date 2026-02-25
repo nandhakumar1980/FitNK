@@ -4,170 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NK FITNESS | UNLOCK THE ULTIMATE</title>
-    <meta name="description" content="NK Fitness - Activate your potential through orbital-tech training protocols.">
+    <title>Ben 10 | Classic DNA Transformation</title>
+    <meta name="description" content="Unlock the original 10. Classic Omnitrix powered fitness protocols by NK.">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Bangers&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- Background Cinematic Elements -->1m
-    <div id="energy-canvas"></div>
-    <div class="background-rings">
-        <div class="ring ring-1"></div>
-        <div class="ring ring-2"></div>
-        <div class="ring ring-3"></div>
+    <div class="background-elements">
+        <div class="classic-overlay"></div>
+        <div class="energy-beams"></div>
     </div>
 
     <header>
-        <nav class="nav-container">
-            <div class="logo-hub">
-                <div class="core-dial">
-                    <div class="core-outer"></div>
-                    <div class="core-inner"></div>
+        <div class="container">
+            <div class="logo">
+                <div class="classic-omnitrix-logo">
+                    <div class="dial">
+                        <div class="hourglass"></div>
+                    </div>
                 </div>
-                <div class="logo-text">NK FITNESS</div>
+                <span class="logo-text">BEN <span class="highlight">10</span> <span
+                        class="sub-logo">CLASSIC</span></span>
             </div>
-            <ul class="footer-nav" style="margin: 0;">
-                <li><a href="#hero" class="scramble-hover">MATRIX</a></li>
-                <li><a href="#workouts" class="scramble-hover">PROTOCOLS</a></li>
-                <li><a href="#nutrition" class="scramble-hover">BIO-FUEL</a></li>
-                <li><a href="#progress" class="scramble-hover">TRANSYNC</a></li>
-            </ul>
-            <button class="power-btn" style="padding: 0.8rem 1.5rem; font-size: 0.7rem;">SYNC CORE</button>
-        </nav>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#analyze" class="nav-link">TRANSFORM</a></li>
+                    <li><a href="#hero" class="nav-link">DNA SAMPLES</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero">
+        <section id="hero">
             <div class="container">
-                <h1 class="hero-title reflect-text glow-text spark-trigger" data-text="ACTIVATE YOUR POWER">ACTIVATE
-                    YOUR POWER</h1>
-                <p class="hero-subtext">Train Like a Hero. Transform Like an Alien.</p>
-                <div class="hero-actions">
-                    <button id="activate-mode" class="power-btn">ENTER POWER MODE</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Power Workout System -->
-        <section id="workouts" class="container">
-            <h2 class="hero-title glow-text" style="font-size: 3rem; text-align: center; margin-bottom: 5rem;">WORKOUT
-                PROTOCOLS</h2>
-            <div class="grid-system">
-                <div class="alien-panel spark-trigger">
-                    <div class="panel-icon">💪</div>
-                    <h3 class="glow-text scramble-hover">TITAN FORCE</h3>
-                    <p style="color: #aaa; margin-top: 1rem;">Heavy-load kinetic resistance protocols designed for
-                        planetary-scale mass acquisition.</p>
-                </div>
-                <div class="alien-panel spark-trigger">
-                    <div class="panel-icon">⚡</div>
-                    <h3 class="glow-text scramble-hover">WARP SPEED</h3>
-                    <p style="color: #aaa; margin-top: 1rem;">Neural agility sync to compress reaction time into
-                        nanosecond intervals.</p>
-                </div>
-                <div class="alien-panel spark-trigger">
-                    <div class="panel-icon">🧘</div>
-                    <h3 class="glow-text scramble-hover">BIO-SYNC</h3>
-                    <p style="color: #aaa; margin-top: 1rem;">Cellular regeneration cycles to maintain peak physical
-                        integrity during transformation.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- AI Nutrition Engine -->
-        <section id="nutrition" class="container" style="padding: 15rem 0;">
-            <div class="alien-panel"
-                style="display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 5rem;">
-                <div class="engine-visual">
-                    <div class="circular-engine">
-                        <div class="engine-circle"></div>
-                        <div class="engine-progress" id="fuel-progress"></div>
-                        <span class="engine-val">84%</span>
+                <div class="hero-content">
+                    <div class="watch-container">
+                        <div class="omnitrix-classic">
+                            <div class="watch-base"></div>
+                            <div class="watch-dial">
+                                <div class="classic-hourglass"></div>
+                            </div>
+                            <div class="watch-buttons"></div>
+                        </div>
                     </div>
-                    <p style="text-align: center; font-family: var(--font-heading); color: var(--primary);">BIO-FUEL
-                        SYNC</p>
-                </div>
-                <div class="engine-info">
-                    <h2 class="glow-text" style="font-size: 3rem; font-family: var(--font-heading);">AI NUTRITION ENGINE
-                    </h2>
-                    <p style="color: #888; margin: 2rem 0;">Our Galvin-inspired logic core calculates your metabolic
-                        requirements in real-time, optimizing genetic fuel distribution.</p>
-                    <button class="power-btn">RECALIBRATE MACROS</button>
+                    <h1 class="classic-title">IT'S HERO TIME!</h1>
+                    <p class="subtitle">Step into the original Plumber DNA Lab. The Omnitrix is ready to recalibrate
+                        your human physiology into an elite alien form.</p>
+                    <button id="start-journey" class="btn-classic">SELECT ALIEN</button>
                 </div>
             </div>
         </section>
 
-        <!-- Transformation Tracker -->
-        <section id="progress" class="container">
-            <h2 class="hero-title glow-text" style="font-size: 3rem; text-align: center; margin-bottom: 5rem;">GENETIC
-                PROGRESSION</h2>
-            <div class="grid-system">
-                <div class="stat-box" style="text-align: center;">
-                    <div class="circular-engine" style="width: 150px; height: 150px;">
-                        <div class="engine-circle"></div>
-                        <div class="engine-progress" style="transform: rotate(180deg); border-color: #fff;"></div>
-                        <span class="engine-val" style="font-size: 2rem;">72%</span>
+        <section id="analyze" class="hidden">
+            <div class="container">
+                <div class="classic-box">
+                    <div class="form-header">
+                        <h2>DNA VERIFICATION</h2>
+                        <div class="plumber-badge"></div>
                     </div>
-                    <p class="glow-text">STRENGTH SYNC</p>
-                </div>
-                <div class="stat-box" style="text-align: center;">
-                    <div class="circular-engine" style="width: 150px; height: 150px;">
-                        <div class="engine-circle"></div>
-                        <div class="engine-progress" style="transform: rotate(240deg);"></div>
-                        <span class="engine-val" style="font-size: 2rem;">94%</span>
-                    </div>
-                    <p class="glow-text">AGILITY SYNC</p>
-                </div>
-                <div class="stat-box" style="text-align: center;">
-                    <div class="circular-engine" style="width: 150px; height: 150px;">
-                        <div class="engine-circle"></div>
-                        <div class="engine-progress" style="transform: rotate(10deg); border-color: var(--lime);"></div>
-                        <span class="engine-val" style="font-size: 2rem;">48%</span>
-                    </div>
-                    <p class="glow-text">ULTIMATE POTENTIAL</p>
+
+                    <form id="coach-form">
+                        <div class="form-step active" data-step="1">
+                            <h3>Host Identification</h3>
+                            <div class="input-group">
+                                <input type="number" name="age" placeholder="Age" required>
+                                <input type="number" name="height" placeholder="Height (cm)" required>
+                                <input type="number" name="weight" placeholder="Weight (kg)" required>
+                            </div>
+                            <button type="button" class="btn-next">SCAN SAMPLES</button>
+                        </div>
+
+                        <div class="form-step" data-step="2">
+                            <h3>Combat Objective</h3>
+                            <div class="input-group">
+                                <select name="primary_goal" required>
+                                    <option value="" disabled selected>Select Transformation</option>
+                                    <option value="heatblast">Heatblast (Fat Burn)</option>
+                                    <option value="four_arms">Four Arms (Power/Mass)</option>
+                                    <option value="xlr8">XLR8 (Speed/Agility)</option>
+                                    <option value="diamondhead">Diamondhead (Durability)</option>
+                                    <option value="ghostfreak">Ghostfreak (Mobility)</option>
+                                </select>
+                                <select name="fitness_level" required>
+                                    <option value="" disabled selected>Combat Experience</option>
+                                    <option value="beginner">Rookie</option>
+                                    <option value="intermediate">Plumber Trainee</option>
+                                    <option value="advanced">Master Hero</option>
+                                </select>
+                            </div>
+                            <div class="button-row">
+                                <button type="button" class="btn-prev">BACK</button>
+                                <button type="button" class="btn-next">CONFIRM DNA</button>
+                            </div>
+                        </div>
+
+                        <div class="form-step" data-step="3">
+                            <h3>Battle Gear</h3>
+                            <div class="input-group">
+                                <select name="equipment" required>
+                                    <option value="" disabled selected>Available Tech</option>
+                                    <option value="full_gym">Max's Plumber HQ</option>
+                                    <option value="limited_gym">Rustbucket Setup</option>
+                                    <option value="bodyweight">No Tech</option>
+                                </select>
+                                <input type="number" name="frequency" placeholder="Missions/Week" required>
+                            </div>
+                            <div class="button-row">
+                                <button type="button" class="btn-prev">BACK</button>
+                                <button type="submit" class="btn-submit">TRANSFORM!</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
 
-        <!-- 30-Day Hero Challenge -->
-        <section id="challenge" class="container" style="padding: 10rem 0;">
-            <div class="alien-panel" style="text-align: center; border: 2px solid var(--primary);">
-                <div class="challenge-badge"
-                    style="width: 120px; height: 120px; margin: 0 auto 3rem; position: relative;">
-                    <div class="core-outer" style="animation-duration: 2s;"></div>
-                    <div class="panel-icon"
-                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; font-size: 3rem;">
-                        🎖️</div>
-                </div>
-                <h2 class="glow-text" style="font-size: 4rem; font-family: var(--font-heading);">30-DAY HERO CHALLENGE
-                </h2>
-                <p style="color: #aaa; margin: 2rem 0; font-size: 1.2rem;">Complete the evolution. Achieve your ultimate
-                    molecular state in 30 solar cycles.</p>
-                <button class="power-btn">ACCEPT PROTOCOL</button>
-            </div>
-        </section>
-
-        <!-- Testimonials -->
-        <section id="testimonials" class="container">
-            <h2 class="hero-title glow-text" style="font-size: 3rem; text-align: center; margin-bottom: 5rem;">CORE
-                SUCCESS</h2>
-            <div class="grid-system">
-                <div class="hologram-card">
-                    <p style="color: #ccc; font-style: italic; margin-bottom: 2rem;">"The Titan Force protocol increased
-                        my mass density by 40% in just two solar weeks. Cinematic results."</p>
-                    <p class="glow-text" style="font-weight: 800;">- CADET JAX</p>
-                </div>
-                <div class="hologram-card">
-                    <p style="color: #ccc; font-style: italic; margin-bottom: 2rem;">"Neural agility is off the charts.
-                        I can literal see the sweat before it even hits the floor. Evolution active."</p>
-                    <p class="glow-text" style="font-weight: 800;">- AGENT SYL</p>
-                </div>
-                <div class="hologram-card">
-                    <p style="color: #ccc; font-style: italic; margin-bottom: 2rem;">"The Bio-Sync regeneration is the
-                        holy grail. No recovery time, just constant power."</p>
-                    <p class="glow-text" style="font-weight: 800;">- PLUMBER REX</p>
+        <section id="results" class="hidden">
+            <div class="container">
+                <div id="program-display" class="classic-results">
+                    <div class="loading-state">
+                        <div class="classic-scanner"></div>
+                        <p>ACCESSING ORIGINAL 10... SYNCING DNA... HERO FORM LOCKED.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -175,27 +139,11 @@
 
     <footer>
         <div class="container">
-            <div class="logo-hub" style="justify-content: center; margin-bottom: 4rem;">
-                <div class="core-dial">
-                    <div class="core-outer"></div>
-                    <div class="core-inner"></div>
-                </div>
-                <div class="logo-text">NK FITNESS</div>
-            </div>
-            <ul class="footer-nav">
-                <li><a href="#">DNA ARCHIVE</a></li>
-                <li><a href="#">PLUMBER HQ</a></li>
-                <li><a href="#">LEGAL MATRIX</a></li>
-                <li><a href="#">ENCRYPTION PROTOCOL</a></li>
-            </ul>
-            <p style="color: #333; font-size: 0.7rem; letter-spacing: 2px;">SYNCING WITH PRIMUS DATABASE... [ONLINE]</p>
+            <p>&copy; 2026 BEN 10 CLASSIC | NK PERFORMANCE</p>
         </div>
     </footer>
 
-    <div id="flash-overlay"
-        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999;"></div>
-
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

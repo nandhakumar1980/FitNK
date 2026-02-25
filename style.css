@@ -311,23 +311,33 @@ select:focus {
 /* Results Display */
 .classic-results {
     background: #000;
-    border: 10px solid var(--classic-green);
-    padding: 3rem;
-    margin-top: 4rem;
+    border: clamp(5px, 2vw, 10px) solid var(--classic-green);
+    padding: clamp(1rem, 5vw, 3rem);
+    margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
+
 .result-header h1 {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 10vw, 4rem);
     color: var(--classic-green);
+    line-height: 1.1;
+    word-wrap: break-word;
+    margin-bottom: 10px;
 }
+
 
 .mission-card {
     background: #111;
     border: 4px solid #333;
-    padding: 2rem;
-    margin: 1.5rem 0;
+    padding: clamp(1rem, 3vw, 2rem);
+    margin: 1rem 0;
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
+
 
 .mission-card h3 {
     color: var(--classic-green);
@@ -419,19 +429,46 @@ select:focus {
 /* Responsive */
 @media (max-width: 600px) {
     .classic-title {
-        font-size: 3rem;
+        font-size: clamp(2rem, 12vw, 3rem);
     }
 
     .classic-box {
-        padding: 1.5rem;
+        padding: 1rem;
+        border-width: 4px;
     }
 
     .exercise-classic {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.02);
+        margin-bottom: 10px;
+    }
+
+    .exercise-classic.head {
+        display: none;
+    }
+
+    .exercise-classic span:nth-child(1) {
+        color: var(--classic-green);
+        font-size: 1.1rem;
     }
 
     .btn-classic {
         width: 100%;
         font-size: 1.4rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .mission-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .result-header p {
+        font-size: 0.9rem;
+    }
+
+    .plumber-section {
+        padding: 1.5rem;
     }
 }
